@@ -14,5 +14,4 @@ SELECT BoissId, COUNT(FactureId) * 100.0 / (SELECT COUNT(FactureId) FROM Facture
 FROM Factures
 GROUP BY BoissId;
 
-DROP TABLE IF EXISTS Boissons;
-DROP TABLE IF EXISTS Factures;
+

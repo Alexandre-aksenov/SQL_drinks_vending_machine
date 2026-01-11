@@ -1,0 +1,2 @@
+DROP TABLE IF EXISTS Boissons;
+DROP TABLE IF EXISTS Factures;
