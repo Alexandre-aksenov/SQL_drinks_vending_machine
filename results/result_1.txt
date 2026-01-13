@@ -1,0 +1,6 @@
+BoissonId,Nom,Contenance,PRIX
+1,Coca,33,0.99
+2,Perrier,100,2.0
+3,Perrier,33,1.0
+4,Vittel,150,1.5
+5,Badoit,50,2.0
