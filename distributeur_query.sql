@@ -1,4 +1,3 @@
--- Check the contents of the tables
 SELECT * from Boissons;
 
 SELECT * from Factures;
