@@ -13,8 +13,8 @@ do
     else
         output_file="results/result_${counter}.txt"
 
-        # export query to text file
-          echo "Exported query to: $output_file"
+        # export query to text file line-by-line
+        echo "Exported query to: $output_file"
         while IFS= read -r line; do
 
             printf '%s\n' "$line" >> "$output_file"
