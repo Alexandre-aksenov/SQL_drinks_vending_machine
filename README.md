@@ -6,9 +6,9 @@ stored and analyzed using SQLite.
 # Usage
 
 The database is generated using the script <sql>distributeur_create_db.sql</sql>.
-If a name is asked, the user should supply <code>Distributeur.sqlite</code> (the name used in the bash script).
+If a name is asked, the user should supply <code>Distributeur.sqlite</code> (this name is used in the bash script).
 
-After creating the database, an example of queries is contained in the file <sql>distributeur_query.sql</sql>.
+After creating the database, an example of queries is contained in the file <code>distributeur_query.sql</code>.
 To authomatize extraction of results as CSV files, the script <code>script_multi_save.sh</code> can be used.
 It exports the results of the queries to the folder <code>results</code>.
 
